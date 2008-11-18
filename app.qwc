@@ -1,0 +1,12 @@
+<QBWCXML>
+  <AppName>Test App</AppName>
+  <AppID></AppID>
+  <AppURL>http://localhost1:4567/api</AppURL>
+  <AppDescription></AppDescription>
+  <AppSupport>http://localhost1:4567/api</AppSupport>
+  <UserName>c541924d887c1faa5c8b5601101f7ff3b120e5bf</UserName>
+  <OwnerID>{34F3B9B1-88F1-4fcc-B1EE-566DE1812D20}</OwnerID>
+  <FileID>{12F3B9B3-36F1-4fcc-B1EE-566DE1813D20}</FileID>
+  <QBType>QBFS</QBType>
+  <Style>Document</Style>
+</QBWCXML>

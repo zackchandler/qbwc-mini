@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <authenticateResponse xmlns="http://developer.intuit.com/">
+      <authenticateResult>
+        <string><%= @token.fast_xs %></string>
+        <string><%= @message.fast_xs %></string>
+        <string><%= @seconds_until_next_update %></string>
+        <string><%= @seconds_between_runs %></string>
+      </authenticateResult>
+    </authenticateResponse>
+  </soap:Body>
+</soap:Envelope>
