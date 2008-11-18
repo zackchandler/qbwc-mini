@@ -14,13 +14,13 @@ mini-qbwc is an experiment in simplicity and non-suckiness.
 
 * Sinatra
 * Hpricot
+* fast_xs
 
 ### Setup ###
 
 1) Install prerequisites
   
-    $ sudo gem install sinatra
-    $ sudo gem install hpricot
+    $ sudo gem install sinatra hpricot fast_xs
     
 2) Start server
 
